@@ -1,0 +1,93 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(7, 85, 85);
+  height: 120vh;
+  display: flex;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  border-style: solid;
+  border-width: 50px;
+  border-image: url("./stars-image.png") 30 repeat;
+  flex-direction: column;
+}
+
+.contant {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  /* margin:20px auto 110px auto; */
+  display: block;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#codenetic {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: purple;
+}
+
+h3 {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: rgb(42, 101, 111);
+}
+
+p {
+  font-size: 22px;
+  color: rgb(85, 80, 80);
+  padding: 5px;
+}
+
+div {
+  margin-bottom: 30px;
+}
+
+.signature {
+  width: 270px;
+  height: 20px;
+  font-size: 22px;
+  color: rgb(85, 80, 80);
+  padding: 5px;
+  margin-left: 700px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
